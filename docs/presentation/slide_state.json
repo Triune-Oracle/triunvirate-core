@@ -1,0 +1,108 @@
+{
+  "project_info": {
+    "title": "What Is This?",
+    "created": 1771374796.030651,
+    "last_updated": 1771374837.1417766,
+    "total_slides": 8
+  },
+  "slides": [
+    {
+      "id": "slide_1_intro",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "slide_2_problem",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "slide_3_solution",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "slide_4_why_it_works",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "slide_5_what_it_is_not",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "slide_6_integrity_trust",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "slide_7_who_it_is_for",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "slide_8_bottom_line",
+      "state": "edited",
+      "pageNum": 8
+    }
+  ],
+  "outline": [
+    {
+      "id": "slide_1_intro",
+      "title": "What Is This?",
+      "summary": "Introduction to the Triumvirate as a multi-agent AI coordination framework for safe scaling through role boundaries and auditable paths.",
+      "image_plan": "/home/ubuntu/upload/search_images/r9VAcH26kW6o.webp - This image clearly depicts a 'Multi-Agent Architecture' which aligns perfectly with the 'Triumvirate Framework' being a multi-agent AI coordination framework.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_2_problem",
+      "title": "The Problem",
+      "summary": "Analysis of why autonomous AI systems fail: role blurring, lack of auditability, and unchecked autonomy escalation.",
+      "image_plan": "/home/ubuntu/upload/search_images/1gHFuFpteOCb.png - This image shows a complex system with various components and connections, representing potential points of failure or blurring roles in autonomous AI systems.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_3_solution",
+      "title": "The Solution: DSP",
+      "summary": "Introduction to Digital Suggestion Patterns (DSP) as a standardized cognitive pipeline: Perception, Cognition, Implementation, Integration.",
+      "image_plan": "/home/ubuntu/upload/search_images/9cSptIvxA6qf.png - This image illustrates a detailed pipeline with distinct stages, visually representing a 'standardized cognitive pipeline' as described in the slide.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_4_why_it_works",
+      "title": "Why It Works",
+      "summary": "Benefits of the framework: reduced hallucinated agency, preserved accountability, safe scaling, and separation of vision from execution.",
+      "image_plan": "/home/ubuntu/upload/search_images/g7mq3szRBOEG.jpg - This image displays various brain scans and cognitive models, which can symbolize the reduction of 'hallucinated agency' and the preservation of accountability by focusing on cognitive processes.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_5_what_it_is_not",
+      "title": "What It Is Not",
+      "summary": "Clarifying the boundaries: not a persuasion engine, guarantee system, financial prediction model, or fully autonomous without oversight.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_6_integrity_trust",
+      "title": "Integrity & Trust",
+      "summary": "Technical foundations for trust: logged decisions, optional cryptographic anchoring, audit trails, and reversible execution.",
+      "image_plan": "/home/ubuntu/upload/search_images/pUI2Mrdr69OA.jpg - This image clearly shows an 'AUDIT' interface with checkboxes and data, directly relating to 'Logged decisions', 'Clear audit trail', and 'Reversible execution'.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_7_who_it_is_for",
+      "title": "Who It’s For",
+      "summary": "Target audience: AI researchers, multi-agent system builders, audit-sensitive organizations, and long-horizon autonomous projects.",
+      "image_plan": "/home/ubuntu/upload/search_images/4k74SEpiLNMG.jpg - This image is titled 'Building Multi AI Agent Systems' and shows different components, making it suitable for 'AI researchers' and 'Multi-agent system builders'.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_8_bottom_line",
+      "title": "Bottom Line",
+      "summary": "The core philosophy: prioritizing correctness over spectacle and scaling intelligence by limiting it.",
+      "image_plan": "/home/ubuntu/upload/search_images/hSnlwjN2ZjPK.jpg - This image features a person interacting with a digital interface displaying a balance scale and various icons, which can represent the idea of prioritizing 'correctness over spectacle' and scaling intelligence by limiting it.",
+      "slide_template_key": ""
+    }
+  ]
+}

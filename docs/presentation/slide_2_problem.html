@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #2C3E50; 
+        color: #ECF0F1; 
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px;
+        padding-left: 80px;
+      }
+      h2 {
+        font-size: 48px;
+        color: #D4AF37;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+      }
+      .main-content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .text-section {
+        flex: 0 0 50%;
+      }
+      .problem-item {
+        margin-top: 40px;
+        display: flex;
+        align-items: flex-start;
+      }
+      .icon {
+        color: #E74C3C;
+        font-size: 32px;
+        margin-right: 20px;
+        padding-top: 5px;
+      }
+      .problem-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #D4AF37;
+        margin-bottom: 10px;
+      }
+      .problem-desc {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      .image-section {
+        flex: 0 0 45%;
+        display: flex;
+        justify-content: center;
+      }
+      img {
+        width: 500px;
+        height: 450px;
+        object-fit: contain;
+        border: 1px solid rgba(212, 175, 55, 0.5);
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2>The Problem</h2>
+        </div>
+        <div class="main-content">
+            <div class="text-section">
+                <div class="problem-item">
+                    <i class="fas fa-exclamation-triangle icon"></i>
+                    <div>
+                        <div class="problem-title">Role Blurring</div>
+                        <div class="problem-desc">Agents overstep their boundaries, leading to conflicting actions and context loss between execution steps.</div>
+                    </div>
+                </div>
+                <div class="problem-item">
+                    <i class="fas fa-eye-slash icon"></i>
+                    <div>
+                        <div class="problem-title">Lack of Auditability</div>
+                        <div class="problem-desc">Decisions are made in "black boxes," making it impossible to trace the reasoning or verify the integrity of outcomes.</div>
+                    </div>
+                </div>
+                <div class="problem-item">
+                    <i class="fas fa-chart-line icon"></i>
+                    <div>
+                        <div class="problem-title">Unchecked Autonomy</div>
+                        <div class="problem-desc">Systems accelerate without constraints, increasing the risk of catastrophic failure and autonomous drift.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="/home/ubuntu/upload/search_images/1gHFuFpteOCb.png" alt="Complex System Failure Points">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

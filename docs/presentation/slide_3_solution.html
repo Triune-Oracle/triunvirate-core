@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #2C3E50; 
+        color: #ECF0F1; 
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px;
+        padding-left: 80px;
+      }
+      h2 {
+        font-size: 42px;
+        color: #D4AF37;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .pipeline-image-container {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+      }
+      img {
+        width: 1000px;
+        height: 300px;
+        object-fit: contain;
+        border: 1px solid rgba(212, 175, 55, 0.3);
+        background: rgba(255,255,255,0.05);
+      }
+      .stages-container {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .stage-box {
+        text-align: center;
+        width: 250px;
+      }
+      .stage-icon {
+        font-size: 40px;
+        color: #D4AF37;
+        margin-bottom: 15px;
+      }
+      .stage-name {
+        font-size: 22px;
+        font-weight: 700;
+        color: #ECF0F1;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      .stage-desc {
+        font-size: 14px;
+        line-height: 1.4;
+        color: #BDC3C7;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2>The Solution: Digital Suggestion Patterns (DSP)</h2>
+        </div>
+        <div class="pipeline-image-container">
+            <img src="/home/ubuntu/upload/search_images/9cSptIvxA6qf.png" alt="Standardized Cognitive Pipeline">
+        </div>
+        <div class="stages-container">
+            <div class="stage-box">
+                <i class="fas fa-satellite-dish stage-icon"></i>
+                <div class="stage-name">Perception</div>
+                <div class="stage-desc">Intake of raw information and environmental signals.</div>
+            </div>
+            <div class="stage-box">
+                <i class="fas fa-brain stage-icon"></i>
+                <div class="stage-name">Cognition</div>
+                <div class="stage-desc">Interpretation under strict role-based constraints.</div>
+            </div>
+            <div class="stage-box">
+                <i class="fas fa-cogs stage-icon"></i>
+                <div class="stage-name">Implementation</div>
+                <div class="stage-desc">Bounded action within defined execution parameters.</div>
+            </div>
+            <div class="stage-box">
+                <i class="fas fa-database stage-icon"></i>
+                <div class="stage-name">Integration</div>
+                <div class="stage-desc">Logging and memory update for verifiable audit trails.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #2C3E50; 
+        color: #ECF0F1; 
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px;
+        padding-left: 80px;
+      }
+      h2 {
+        font-size: 42px;
+        color: #D4AF37;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .main-content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .image-section {
+        flex: 0 0 40%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .benefit-image {
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+        border: 2px solid #D4AF37;
+      }
+      .text-section {
+        flex: 0 0 55%;
+      }
+      .benefit-item {
+        margin-top: 30px;
+        display: flex;
+        align-items: flex-start;
+      }
+      .benefit-icon {
+        color: #D4AF37;
+        font-size: 28px;
+        margin-right: 20px;
+        padding-top: 5px;
+      }
+      .benefit-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #D4AF37;
+        margin-bottom: 8px;
+      }
+      .benefit-desc {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #ECF0F1;
+      }
+      .blueprint-line {
+        position: absolute;
+        background: rgba(212, 175, 55, 0.1);
+        height: 1px;
+        width: 100%;
+        top: 150px;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="blueprint-line"></div>
+        <div class="header">
+            <h2>Why It Works</h2>
+        </div>
+        <div class="main-content">
+            <div class="image-section">
+                <img src="/home/ubuntu/upload/search_images/g7mq3szRBOEG.jpg" alt="Cognitive Models" class="benefit-image">
+            </div>
+            <div class="text-section">
+                <div class="benefit-item">
+                    <i class="fas fa-shield-alt benefit-icon"></i>
+                    <div>
+                        <div class="benefit-title">Reduced Hallucinated Agency</div>
+                        <div class="benefit-desc">By enforcing strict role boundaries, agents are prevented from assuming authority they do not possess, ensuring actions remain grounded.</div>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-history benefit-icon"></i>
+                    <div>
+                        <div class="benefit-title">Preserved Accountability</div>
+                        <div class="benefit-desc">The DSP loop ensures every decision is recorded, creating a permanent and verifiable audit trail for all system actions.</div>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-expand-arrows-alt benefit-icon"></i>
+                    <div>
+                        <div class="benefit-title">Safe Scaling</div>
+                        <div class="benefit-desc">The framework allows for the deployment of multiple agent swarms without the risk of uncontrolled autonomy escalation.</div>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-project-diagram benefit-icon"></i>
+                    <div>
+                        <div class="benefit-title">Separation of Vision from Execution</div>
+                        <div class="benefit-desc">Strategic intent is decoupled from tactical implementation, allowing for clear governance and oversight at every level.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

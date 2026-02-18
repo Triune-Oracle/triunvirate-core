@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #2C3E50; 
+        color: #ECF0F1; 
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px;
+        padding-left: 80px;
+      }
+      h2 {
+        font-size: 48px;
+        color: #D4AF37;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+      }
+      .main-content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .image-section {
+        flex: 0 0 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      img {
+        width: 500px;
+        height: 350px;
+        object-fit: contain;
+        border: 2px solid #D4AF37;
+        box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+      }
+      .text-section {
+        flex: 0 0 50%;
+      }
+      .trust-item {
+        margin-top: 30px;
+        display: flex;
+        align-items: flex-start;
+      }
+      .icon {
+        color: #D4AF37;
+        font-size: 28px;
+        margin-right: 20px;
+        padding-top: 5px;
+      }
+      .trust-title {
+        font-size: 22px;
+        font-weight: 700;
+        color: #D4AF37;
+        margin-bottom: 8px;
+      }
+      .trust-desc {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #BDC3C7;
+      }
+      .blueprint-line {
+        position: absolute;
+        background: rgba(212, 175, 55, 0.1);
+        height: 1px;
+        width: 100%;
+        top: 140px;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="blueprint-line"></div>
+        <div class="header">
+            <h2>Integrity & Trust</h2>
+        </div>
+        <div class="main-content">
+            <div class="image-section">
+                <img src="/home/ubuntu/upload/search_images/pUI2Mrdr69OA.jpg" alt="Audit Interface">
+            </div>
+            <div class="text-section">
+                <div class="trust-item">
+                    <i class="fas fa-file-signature icon"></i>
+                    <div>
+                        <div class="trust-title">Logged Decisions</div>
+                        <div class="trust-desc">Every state transition and agent action is recorded in a permanent, append-only memory store.</div>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-link icon"></i>
+                    <div>
+                        <div class="trust-title">Cryptographic Anchoring</div>
+                        <div class="trust-desc">Optional anchoring to Ethereum-compatible ledgers provides immutable proof of system integrity.</div>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-clipboard-check icon"></i>
+                    <div>
+                        <div class="trust-title">Audit Trails</div>
+                        <div class="trust-desc">Clear, human-readable and machine-parsable logs enable comprehensive post-execution review.</div>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-undo-alt icon"></i>
+                    <div>
+                        <div class="trust-title">Reversible Execution</div>
+                        <div class="trust-desc">Bounded actions are designed to be reversible where possible, minimizing operational risk.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

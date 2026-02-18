@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #2C3E50; 
+        color: #ECF0F1; 
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px;
+        padding-left: 80px;
+      }
+      h2 {
+        font-size: 42px;
+        color: #D4AF37;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 40px;
+        padding-top: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
+        position: relative;
+      }
+      .center-image {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+        border: 2px solid #D4AF37;
+        background: #2C3E50;
+      }
+      .center-image img {
+        width: 400px;
+        height: 225px;
+        object-fit: contain;
+        display: block;
+      }
+      .audience-card {
+        padding-top: 20px;
+        min-height: 180px;
+      }
+      .audience-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      .audience-icon {
+        font-size: 28px;
+        color: #D4AF37;
+        margin-right: 15px;
+      }
+      .audience-title {
+        font-size: 22px;
+        font-weight: 700;
+        color: #D4AF37;
+        text-transform: uppercase;
+      }
+      .audience-desc {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #ECF0F1;
+        max-width: 450px;
+      }
+      /* Alignment for quadrants */
+      .q1 { text-align: left; }
+      .q2 { text-align: right; }
+      .q2 .audience-header { justify-content: flex-end; }
+      .q2 .audience-icon { order: 2; margin-right: 0; margin-left: 15px; }
+      .q2 .audience-desc { margin-left: auto; }
+      
+      .q3 { text-align: left; padding-top: 80px; }
+      .q4 { text-align: right; padding-top: 80px; }
+      .q4 .audience-header { justify-content: flex-end; }
+      .q4 .audience-icon { order: 2; margin-right: 0; margin-left: 15px; }
+      .q4 .audience-desc { margin-left: auto; }
+
+      /* Decorative Blueprint Lines */
+      .connector {
+        position: absolute;
+        background: rgba(212, 175, 55, 0.3);
+        z-index: 1;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2>Who It’s For</h2>
+        </div>
+        
+        <div class="center-image">
+            <img src="/home/ubuntu/upload/search_images/4k74SEpiLNMG.jpg" alt="Building Multi AI Agent Systems">
+        </div>
+
+        <div class="main-grid">
+            <div class="audience-card q1">
+                <div class="audience-header">
+                    <i class="fas fa-microscope audience-icon"></i>
+                    <div class="audience-title">AI Researchers</div>
+                </div>
+                <div class="audience-desc">Academics and labs exploring the frontiers of multi-agent coordination and cognitive modeling.</div>
+            </div>
+            
+            <div class="audience-card q2">
+                <div class="audience-header">
+                    <i class="fas fa-tools audience-icon"></i>
+                    <div class="audience-title">System Builders</div>
+                </div>
+                <div class="audience-desc">Engineers designing complex autonomous workflows that require high reliability and role integrity.</div>
+            </div>
+            
+            <div class="audience-card q3">
+                <div class="audience-header">
+                    <i class="fas fa-shield-alt audience-icon"></i>
+                    <div class="audience-title">Audit-Sensitive Orgs</div>
+                </div>
+                <div class="audience-desc">Enterprises and regulatory bodies requiring full traceability and explainability of AI decisions.</div>
+            </div>
+            
+            <div class="audience-card q4">
+                <div class="audience-header">
+                    <i class="fas fa-infinity audience-icon"></i>
+                    <div class="audience-title">Long-Horizon Projects</div>
+                </div>
+                <div class="audience-desc">Visionary initiatives building persistent, evolving autonomous systems with bounded drift.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

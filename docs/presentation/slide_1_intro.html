@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #2C3E50; 
+        color: #ECF0F1; 
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+      }
+      /* Alchemical Blueprint Background Elements */
+      .blueprint-line {
+        position: absolute;
+        background: rgba(212, 175, 55, 0.2);
+      }
+      .line-h { height: 1px; width: 100%; }
+      .line-v { width: 1px; height: 100%; }
+      
+      .content-left {
+        flex: 0 0 60%;
+        padding-top: 180px;
+        padding-left: 80px;
+        z-index: 2;
+      }
+      .content-right {
+        flex: 0 0 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0,0,0,0.2);
+        z-index: 2;
+      }
+      h1 {
+        font-size: 64px;
+        color: #D4AF37;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        border-left: 8px solid #D4AF37;
+        padding-left: 30px;
+      }
+      .subtitle {
+        font-size: 32px;
+        color: #ECF0F1;
+        font-weight: 400;
+        max-width: 600px;
+      }
+      .accent-bar {
+        width: 100px;
+        height: 4px;
+        background: #E74C3C;
+        margin-top: 40px;
+      }
+      img {
+        width: 450px;
+        height: 300px;
+        object-fit: contain;
+        border: 2px solid #D4AF37;
+        box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Decorative Blueprint Lines -->
+        <div class="blueprint-line line-h" style="top: 100px;"></div>
+        <div class="blueprint-line line-h" style="bottom: 100px;"></div>
+        <div class="blueprint-line line-v" style="left: 100px;"></div>
+        <div class="blueprint-line line-v" style="right: 100px;"></div>
+        
+        <div class="content-left">
+            <h1>Triumvirate<br>Framework</h1>
+            <div class="subtitle">Bounded Multi-Agent AI Coordination</div>
+            <div class="accent-bar"></div>
+        </div>
+        
+        <div class="content-right">
+            <img src="/home/ubuntu/upload/search_images/r9VAcH26kW6o.webp" alt="Multi-Agent Architecture">
+        </div>
+    </div>
+</body>
+</html>

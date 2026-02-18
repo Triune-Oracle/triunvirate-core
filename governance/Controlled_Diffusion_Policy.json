@@ -1,0 +1,27 @@
+{
+  "name": "Controlled Diffusion Standard",
+  "version": "1.0",
+  "principle": "Information propagates only with verifiable guarantees",
+  "layers": {
+    "agent": {
+      "allow": ["DSP structure", "role constraints"],
+      "deny": ["outcome guarantees", "financial claims"]
+    },
+    "code": {
+      "allow": ["prompts", "metrics", "logs"],
+      "deny": ["symbolic language"]
+    },
+    "documentation": {
+      "allow": ["labeled metaphors", "design rationale"],
+      "deny": ["unverified assertions"]
+    },
+    "external": {
+      "allow": ["framing principles"],
+      "deny": ["deterministic claims"]
+    },
+    "financial": {
+      "allow": ["contract logic"],
+      "deny": ["narrative framing"]
+    }
+  }
+}

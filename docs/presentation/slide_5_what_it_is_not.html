@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #2C3E50; 
+        color: #ECF0F1; 
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 80px;
+        padding-left: 100px;
+      }
+      h2 {
+        font-size: 48px;
+        color: #D4AF37;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        border-bottom: 2px solid #E74C3C;
+        display: inline-block;
+        padding-bottom: 10px;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        padding-top: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+      .not-item {
+        width: 480px;
+      }
+      .not-header {
+        font-size: 24px;
+        font-weight: 700;
+        color: #D4AF37;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+      }
+      .not-header i {
+        margin-right: 15px;
+        color: #E74C3C;
+      }
+      .not-desc {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #BDC3C7;
+      }
+      .blueprint-mark {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: 1px solid rgba(212, 175, 55, 0.3);
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Decorative Blueprint Marks -->
+        <div class="blueprint-mark" style="top: 40px; left: 40px; border-right: none; border-bottom: none;"></div>
+        <div class="blueprint-mark" style="top: 40px; right: 40px; border-left: none; border-bottom: none;"></div>
+        <div class="blueprint-mark" style="bottom: 40px; left: 40px; border-right: none; border-top: none;"></div>
+        <div class="blueprint-mark" style="bottom: 40px; right: 40px; border-left: none; border-top: none;"></div>
+
+        <div class="header">
+            <h2>What It Is Not</h2>
+        </div>
+        
+        <div class="grid-container">
+            <div class="not-item">
+                <div class="not-header"><i class="fas fa-times-circle"></i>Not a Persuasion Engine</div>
+                <div class="not-desc">DSP is a cognitive process standard, not a technology designed for behavioral manipulation or psychological influence.</div>
+            </div>
+            <div class="not-item">
+                <div class="not-header"><i class="fas fa-times-circle"></i>Not a Guarantee System</div>
+                <div class="not-desc">The framework acknowledges execution risk; all outputs are probabilistic and do not constitute deterministic performance guarantees.</div>
+            </div>
+            <div class="not-item">
+                <div class="not-header"><i class="fas fa-times-circle"></i>Not a Financial Prediction Model</div>
+                <div class="not-desc">While it manages value rails, the system does not predict market movements or offer financial advice of any kind.</div>
+            </div>
+            <div class="not-item">
+                <div class="not-header"><i class="fas fa-times-circle"></i>Not Autonomous Without Oversight</div>
+                <div class="not-desc">The Triumvirate operates under human-defined constraints and requires directive authority from the Oracle role.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
